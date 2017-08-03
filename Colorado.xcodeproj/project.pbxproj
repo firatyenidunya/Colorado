@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BB2AD21F059C740094C59E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB2AD11F059C740094C59E /* AppDelegate.swift */; };
+		71BB2AD41F059C740094C59E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB2AD31F059C740094C59E /* ViewController.swift */; };
+		71BB2AD61F059C740094C59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BB2AD51F059C740094C59E /* Assets.xcassets */; };
+		71BB2AE41F059C740094C59E /* ColoradoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB2AE31F059C740094C59E /* ColoradoTests.swift */; };
+		71BB2AEF1F059C740094C59E /* ColoradoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB2AEE1F059C740094C59E /* ColoradoUITests.swift */; };
+		71BB2AFD1F059C980094C59E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71BB2AFC1F059C980094C59E /* MainMenu.xib */; };
+		71DD38FB1F063046005F3AE9 /* GlobalEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD38FA1F063046005F3AE9 /* GlobalEventMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71BB2AE01F059C740094C59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BB2AC61F059C740094C59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BB2ACD1F059C740094C59E;
+			remoteInfo = Colorado;
+		};
+		71BB2AEB1F059C740094C59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BB2AC61F059C740094C59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BB2ACD1F059C740094C59E;
+			remoteInfo = Colorado;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71BB2ACE1F059C740094C59E /* Colorado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BB2AD11F059C740094C59E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71BB2AD31F059C740094C59E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71BB2AD51F059C740094C59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71BB2ADA1F059C740094C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BB2ADF1F059C740094C59E /* ColoradoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoradoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BB2AE31F059C740094C59E /* ColoradoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoradoTests.swift; sourceTree = "<group>"; };
+		71BB2AE51F059C740094C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BB2AEA1F059C740094C59E /* ColoradoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoradoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BB2AEE1F059C740094C59E /* ColoradoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoradoUITests.swift; sourceTree = "<group>"; };
+		71BB2AF01F059C740094C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BB2AFC1F059C980094C59E /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		71DD38FA1F063046005F3AE9 /* GlobalEventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalEventMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BB2ACB1F059C740094C59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BB2ADC1F059C740094C59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BB2AE71F059C740094C59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71BB2AC51F059C740094C59E = {
+			isa = PBXGroup;
+			children = (
+				71BB2AD01F059C740094C59E /* Colorado */,
+				71BB2AE21F059C740094C59E /* ColoradoTests */,
+				71BB2AED1F059C740094C59E /* ColoradoUITests */,
+				71BB2ACF1F059C740094C59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71BB2ACF1F059C740094C59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71BB2ACE1F059C740094C59E /* Colorado.app */,
+				71BB2ADF1F059C740094C59E /* ColoradoTests.xctest */,
+				71BB2AEA1F059C740094C59E /* ColoradoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BB2AD01F059C740094C59E /* Colorado */ = {
+			isa = PBXGroup;
+			children = (
+				71BB2AD11F059C740094C59E /* AppDelegate.swift */,
+				71BB2AD31F059C740094C59E /* ViewController.swift */,
+				71BB2AD51F059C740094C59E /* Assets.xcassets */,
+				71BB2ADA1F059C740094C59E /* Info.plist */,
+				71BB2AFC1F059C980094C59E /* MainMenu.xib */,
+				71DD38FA1F063046005F3AE9 /* GlobalEventMonitor.swift */,
+			);
+			path = Colorado;
+			sourceTree = "<group>";
+		};
+		71BB2AE21F059C740094C59E /* ColoradoTests */ = {
+			isa = PBXGroup;
+			children = (
+				71BB2AE31F059C740094C59E /* ColoradoTests.swift */,
+				71BB2AE51F059C740094C59E /* Info.plist */,
+			);
+			path = ColoradoTests;
+			sourceTree = "<group>";
+		};
+		71BB2AED1F059C740094C59E /* ColoradoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71BB2AEE1F059C740094C59E /* ColoradoUITests.swift */,
+				71BB2AF01F059C740094C59E /* Info.plist */,
+			);
+			path = ColoradoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71BB2ACD1F059C740094C59E /* Colorado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BB2AF31F059C740094C59E /* Build configuration list for PBXNativeTarget "Colorado" */;
+			buildPhases = (
+				71BB2ACA1F059C740094C59E /* Sources */,
+				71BB2ACB1F059C740094C59E /* Frameworks */,
+				71BB2ACC1F059C740094C59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colorado;
+			productName = Colorado;
+			productReference = 71BB2ACE1F059C740094C59E /* Colorado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71BB2ADE1F059C740094C59E /* ColoradoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BB2AF61F059C740094C59E /* Build configuration list for PBXNativeTarget "ColoradoTests" */;
+			buildPhases = (
+				71BB2ADB1F059C740094C59E /* Sources */,
+				71BB2ADC1F059C740094C59E /* Frameworks */,
+				71BB2ADD1F059C740094C59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BB2AE11F059C740094C59E /* PBXTargetDependency */,
+			);
+			name = ColoradoTests;
+			productName = ColoradoTests;
+			productReference = 71BB2ADF1F059C740094C59E /* ColoradoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71BB2AE91F059C740094C59E /* ColoradoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BB2AF91F059C740094C59E /* Build configuration list for PBXNativeTarget "ColoradoUITests" */;
+			buildPhases = (
+				71BB2AE61F059C740094C59E /* Sources */,
+				71BB2AE71F059C740094C59E /* Frameworks */,
+				71BB2AE81F059C740094C59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BB2AEC1F059C740094C59E /* PBXTargetDependency */,
+			);
+			name = ColoradoUITests;
+			productName = ColoradoUITests;
+			productReference = 71BB2AEA1F059C740094C59E /* ColoradoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71BB2AC61F059C740094C59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Colorado;
+				TargetAttributes = {
+					71BB2ACD1F059C740094C59E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K4W5TXF9ZA;
+						ProvisioningStyle = Automatic;
+					};
+					71BB2ADE1F059C740094C59E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K4W5TXF9ZA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71BB2ACD1F059C740094C59E;
+					};
+					71BB2AE91F059C740094C59E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K4W5TXF9ZA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71BB2ACD1F059C740094C59E;
+					};
+				};
+			};
+			buildConfigurationList = 71BB2AC91F059C740094C59E /* Build configuration list for PBXProject "Colorado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71BB2AC51F059C740094C59E;
+			productRefGroup = 71BB2ACF1F059C740094C59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BB2ACD1F059C740094C59E /* Colorado */,
+				71BB2ADE1F059C740094C59E /* ColoradoTests */,
+				71BB2AE91F059C740094C59E /* ColoradoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71BB2ACC1F059C740094C59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BB2AD61F059C740094C59E /* Assets.xcassets in Resources */,
+				71BB2AFD1F059C980094C59E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BB2ADD1F059C740094C59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BB2AE81F059C740094C59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BB2ACA1F059C740094C59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BB2AD41F059C740094C59E /* ViewController.swift in Sources */,
+				71BB2AD21F059C740094C59E /* AppDelegate.swift in Sources */,
+				71DD38FB1F063046005F3AE9 /* GlobalEventMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BB2ADB1F059C740094C59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BB2AE41F059C740094C59E /* ColoradoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BB2AE61F059C740094C59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BB2AEF1F059C740094C59E /* ColoradoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71BB2AE11F059C740094C59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BB2ACD1F059C740094C59E /* Colorado */;
+			targetProxy = 71BB2AE01F059C740094C59E /* PBXContainerItemProxy */;
+		};
+		71BB2AEC1F059C740094C59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BB2ACD1F059C740094C59E /* Colorado */;
+			targetProxy = 71BB2AEB1F059C740094C59E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71BB2AF11F059C740094C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71BB2AF21F059C740094C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		71BB2AF41F059C740094C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4W5TXF9ZA;
+				INFOPLIST_FILE = Colorado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = resoft.colorado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71BB2AF51F059C740094C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4W5TXF9ZA;
+				INFOPLIST_FILE = Colorado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = resoft.colorado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		71BB2AF71F059C740094C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4W5TXF9ZA;
+				INFOPLIST_FILE = ColoradoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colorado.ColoradoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colorado.app/Contents/MacOS/Colorado";
+			};
+			name = Debug;
+		};
+		71BB2AF81F059C740094C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4W5TXF9ZA;
+				INFOPLIST_FILE = ColoradoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colorado.ColoradoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colorado.app/Contents/MacOS/Colorado";
+			};
+			name = Release;
+		};
+		71BB2AFA1F059C740094C59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4W5TXF9ZA;
+				INFOPLIST_FILE = ColoradoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colorado.ColoradoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Colorado;
+			};
+			name = Debug;
+		};
+		71BB2AFB1F059C740094C59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4W5TXF9ZA;
+				INFOPLIST_FILE = ColoradoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colorado.ColoradoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Colorado;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71BB2AC91F059C740094C59E /* Build configuration list for PBXProject "Colorado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BB2AF11F059C740094C59E /* Debug */,
+				71BB2AF21F059C740094C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BB2AF31F059C740094C59E /* Build configuration list for PBXNativeTarget "Colorado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BB2AF41F059C740094C59E /* Debug */,
+				71BB2AF51F059C740094C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BB2AF61F059C740094C59E /* Build configuration list for PBXNativeTarget "ColoradoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BB2AF71F059C740094C59E /* Debug */,
+				71BB2AF81F059C740094C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BB2AF91F059C740094C59E /* Build configuration list for PBXNativeTarget "ColoradoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BB2AFA1F059C740094C59E /* Debug */,
+				71BB2AFB1F059C740094C59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71BB2AC61F059C740094C59E /* Project object */;
+}
